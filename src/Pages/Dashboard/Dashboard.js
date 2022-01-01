@@ -202,7 +202,7 @@ function ResponsiveDrawer(props) {
           <AdminRoute path={`${path}/makeAdmin`}>
             <MakeAdmin></MakeAdmin>
           </AdminRoute>
-          <AdminRoute path={`${path}/addTreatment`}>
+          <AdminRoute path={`${path}/addDoctor`}>
             <AddDoctor></AddDoctor>
           </AdminRoute>
         </Switch>

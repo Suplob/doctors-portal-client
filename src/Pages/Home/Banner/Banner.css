@@ -1,0 +1,9 @@
+.chairBackground {
+  background-color: #3a4256;
+  height: 60vh;
+  width: 40vw;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -2;
+}
