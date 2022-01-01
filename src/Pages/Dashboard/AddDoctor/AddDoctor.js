@@ -23,7 +23,7 @@ const AddDoctor = () => {
     formData.append("email", email);
     formData.append("image", img);
 
-    fetch("https://doctors-portal-server-suplob.herokuapp.com//doctors", {
+    fetch("https://doctors-portal-server-suplob.herokuapp.com/doctors", {
       method: "POST",
       body: formData,
     })

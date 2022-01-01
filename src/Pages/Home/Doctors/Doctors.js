@@ -8,7 +8,7 @@ const Doctors = () => {
   const [doctors, setDoctors] = useState([]);
 
   useEffect(() => {
-    fetch(`https://doctors-portal-server-suplob.herokuapp.com//doctors`)
+    fetch(`https://doctors-portal-server-suplob.herokuapp.com/doctors`)
       .then((res) => res.json())
       .then((data) => setDoctors(data));
   }, []);
